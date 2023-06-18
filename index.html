@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <!-- image -->
+        <div class="image">
+            <form action="">
+                <img src="" alt="" width="200" height="200" id="image" >
+                <input type="file" name="" id="imagefile" accept="image/gif,image/png,image/jpg" onchange="chooseFile(this)">
+            </form>
+        </div>
+        <!-- caculator -->
+        <div class="container">
+            <div class="title">Calculator</div>
+            <div class="results">
+                <input type="text" class="result" id="resultInput">
+            </div>
+            <div class="buttons">
+                <button class="button" onclick="buttonHandler(this)">7</button>
+                <button class="button" onclick="buttonHandler(this)">8</button>
+                <button class="button" onclick="buttonHandler(this)" >9</button>
+                <button class="button" onclick="buttonHandler(this)" >+</button>
+            </div>
+            <div class="buttons">
+                <button class="button" onclick="buttonHandler(this)" >4</button>
+                <button class="button" onclick="buttonHandler(this)" >5</button>
+                <button class="button" onclick="buttonHandler(this)" >6</button>
+                <button class="button" onclick="buttonHandler(this)" >-</button>
+            </div>
+            <div class="buttons">
+                <button class="button" onclick="buttonHandler(this)" >1</button>
+                <button class="button" onclick="buttonHandler(this)" >2</button>
+                <button class="button" onclick="buttonHandler(this)" >3</button>
+                <button class="button" onclick="buttonHandler(this)" >*</button>
+            </div>
+            <div class="buttons">
+                <button class="button" onclick="buttonHandler(this)" >0</button>
+                <button class="button" onclick="buttonHandler(this)" >C</button>
+                <button class="button" onclick="buttonHandler(this)" >=</button>
+                <button class="button" onclick="buttonHandler(this)" >:</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+    <script src="./main.js"></script>
+</html>
